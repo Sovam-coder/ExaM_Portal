@@ -1,0 +1,12 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+li{
+    cursor: pointer;
+    margin: 10px 0;
+}
+li .card:hover
+{
+    border: 1px solid blue;
+}

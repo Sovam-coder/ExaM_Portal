@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<div class="container bg-light py-5">
+    <h1 class="text-center">Welcome to Simplilearn</h1>
+    <p>All Question Are Compulsory </p>
+    <p>The test will be of 10 questions</p>
+    <p>Correct Answer provide 10 Marks</p>
+    <p>Each Wrong Answer Deduct 2 Marks</p>
+    <p>The Examination is Proctored</p>
+    <p>Each Question Have Single Answer</p>
+    <p>You can able to see the score when the Exam Over</p>
+    <p>Don't Refresh The Page In middle </p>
+
+    <div class="form-group">
+        <!-- <label class="text-center"><h4>Enter Your Registered Mail Id </h4></label> -->
+        <h3 class="text-center">Enter Your Registed Mail Id </h3>
+        <input #name type="text" class="form-control"  placeholder="Enter Your Registered mail id " required>
+        <br>
+        <button  class="btn btn-success btn-lg btn-block" routerLink="/question" (click)="startQuiz()" >Start The Quiz</button>
+    </div>
+</div>
