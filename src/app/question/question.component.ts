@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
 import { QuestionService } from '../service/question.service';
-import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-question',
@@ -109,15 +108,16 @@ getprogresspercentage()
 //   name: localStorage.getItem("name")!,
 //   score: this.point
 // })
-onSave()
-{
-  this.questionservice.createstudent(this.name,this.point).subscribe((result)=>{
+
+// onSave()
+// {
+//   this.questionservice.createstudent(this.name,this.point).subscribe((result)=>{
     
-    // console.log(result)
+//     // console.log(result)
     
     
-  })
-}
+//   })
+// }
 }
 
 
